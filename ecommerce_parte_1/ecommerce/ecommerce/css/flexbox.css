@@ -1,0 +1,11 @@
+.contenidoPrincipal-productos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenidoPrincipal-productos-link {
+    background: #f5d4d4;
+    display: flex;
+    width: 23%;
+}
+

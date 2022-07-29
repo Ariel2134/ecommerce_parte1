@@ -1,0 +1,67 @@
+/*Contacto*/
+
+.formcontato__contacto {
+    background: #e8f0f3;
+}
+
+
+.formcontato__img {
+
+    padding: 1px;
+    margin: 1px;
+    float: left;
+    width: 100px;
+    margin-left: 1px;
+    margin-top: 1px;
+    width: 100px;
+}
+
+.formcontato__title {
+    text-align: left;
+    margin-top: 1px;
+}
+
+.formcontato__subtext {
+    text-align: left;
+    margin-top: 1px;
+}
+
+.formcontato__input {
+    display: flex;
+    align-content: space-around;
+    font-size: 27px;
+    margin-top: 4px;
+  
+}
+
+.formcontato__textarea {
+    display: flex;
+    font-size: 14.5px;
+    margin-top: 4px;
+    
+}
+
+.formcontato__botao {
+    background-color: rgb(144, 207, 243);
+    display: flex;
+    font-size: 100%;
+    margin-top: 5px;
+    animation-name: move;
+    animation-duration: 50s;
+    animation-iteration-count: 50;
+    animation-direction: alternate;
+}
+
+@keyframes move {
+    from {
+        margin-left: 20%;
+        width: 20%
+        
+    } 
+    to {
+        margin-left:0%;
+        width:20%;
+    }
+}
+
+
